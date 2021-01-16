@@ -14,6 +14,7 @@
 		84150B7E25B32C8B0049742D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84150B7D25B32C8B0049742D /* Assets.xcassets */; };
 		84150B8125B32C8B0049742D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84150B7F25B32C8B0049742D /* LaunchScreen.storyboard */; };
 		84150B8425B32C8B0049742D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84150B8325B32C8B0049742D /* main.m */; };
+		84150B8F25B33CB90049742D /* FBBaseNetObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84150B8E25B33CB90049742D /* FBBaseNetObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		84150B8025B32C8B0049742D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84150B8225B32C8B0049742D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84150B8325B32C8B0049742D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84150B8D25B33CB90049742D /* FBBaseNetObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBBaseNetObserver.h; sourceTree = "<group>"; };
+		84150B8E25B33CB90049742D /* FBBaseNetObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBBaseNetObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				84150B7F25B32C8B0049742D /* LaunchScreen.storyboard */,
 				84150B8225B32C8B0049742D /* Info.plist */,
 				84150B8325B32C8B0049742D /* main.m */,
+				84150B8D25B33CB90049742D /* FBBaseNetObserver.h */,
+				84150B8E25B33CB90049742D /* FBBaseNetObserver.m */,
 			);
 			path = FBNetworkObserverDemo;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84150B7925B32C870049742D /* ViewController.m in Sources */,
+				84150B8F25B33CB90049742D /* FBBaseNetObserver.m in Sources */,
 				84150B7325B32C870049742D /* AppDelegate.m in Sources */,
 				84150B8425B32C8B0049742D /* main.m in Sources */,
 				84150B7625B32C870049742D /* SceneDelegate.m in Sources */,
