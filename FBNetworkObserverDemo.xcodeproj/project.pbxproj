@@ -15,6 +15,12 @@
 		84150B8125B32C8B0049742D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84150B7F25B32C8B0049742D /* LaunchScreen.storyboard */; };
 		84150B8425B32C8B0049742D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84150B8325B32C8B0049742D /* main.m */; };
 		84150B8F25B33CB90049742D /* FBBaseNetObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84150B8E25B33CB90049742D /* FBBaseNetObserver.m */; };
+		848AA68C25B47B5400D7B64D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA68B25B47B5400D7B64D /* LoginViewController.m */; };
+		848AA68F25B47B6600D7B64D /* PayInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA68E25B47B6600D7B64D /* PayInfoViewController.m */; };
+		848AA69225B47B7300D7B64D /* NewsInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA69125B47B7300D7B64D /* NewsInfoViewController.m */; };
+		848AA69625B47BF400D7B64D /* FBLoginNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA69525B47BF400D7B64D /* FBLoginNetManager.m */; };
+		848AA69925B47C0400D7B64D /* FBPayNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA69825B47C0400D7B64D /* FBPayNetManager.m */; };
+		848AA69C25B47C1700D7B64D /* NewsInfoNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AA69B25B47C1700D7B64D /* NewsInfoNetManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,18 @@
 		84150B8325B32C8B0049742D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84150B8D25B33CB90049742D /* FBBaseNetObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBBaseNetObserver.h; sourceTree = "<group>"; };
 		84150B8E25B33CB90049742D /* FBBaseNetObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBBaseNetObserver.m; sourceTree = "<group>"; };
+		848AA68A25B47B5400D7B64D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		848AA68B25B47B5400D7B64D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		848AA68D25B47B6600D7B64D /* PayInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayInfoViewController.h; sourceTree = "<group>"; };
+		848AA68E25B47B6600D7B64D /* PayInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayInfoViewController.m; sourceTree = "<group>"; };
+		848AA69025B47B7300D7B64D /* NewsInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsInfoViewController.h; sourceTree = "<group>"; };
+		848AA69125B47B7300D7B64D /* NewsInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsInfoViewController.m; sourceTree = "<group>"; };
+		848AA69425B47BF400D7B64D /* FBLoginNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBLoginNetManager.h; sourceTree = "<group>"; };
+		848AA69525B47BF400D7B64D /* FBLoginNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLoginNetManager.m; sourceTree = "<group>"; };
+		848AA69725B47C0400D7B64D /* FBPayNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBPayNetManager.h; sourceTree = "<group>"; };
+		848AA69825B47C0400D7B64D /* FBPayNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBPayNetManager.m; sourceTree = "<group>"; };
+		848AA69A25B47C1700D7B64D /* NewsInfoNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsInfoNetManager.h; sourceTree = "<group>"; };
+		848AA69B25B47C1700D7B64D /* NewsInfoNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsInfoNetManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +82,7 @@
 		84150B7025B32C870049742D /* FBNetworkObserverDemo */ = {
 			isa = PBXGroup;
 			children = (
+				848AA69325B47B9000D7B64D /* NetManager */,
 				84150B7125B32C870049742D /* AppDelegate.h */,
 				84150B7225B32C870049742D /* AppDelegate.m */,
 				84150B7425B32C870049742D /* SceneDelegate.h */,
@@ -77,8 +96,27 @@
 				84150B8325B32C8B0049742D /* main.m */,
 				84150B8D25B33CB90049742D /* FBBaseNetObserver.h */,
 				84150B8E25B33CB90049742D /* FBBaseNetObserver.m */,
+				848AA68A25B47B5400D7B64D /* LoginViewController.h */,
+				848AA68B25B47B5400D7B64D /* LoginViewController.m */,
+				848AA68D25B47B6600D7B64D /* PayInfoViewController.h */,
+				848AA68E25B47B6600D7B64D /* PayInfoViewController.m */,
+				848AA69025B47B7300D7B64D /* NewsInfoViewController.h */,
+				848AA69125B47B7300D7B64D /* NewsInfoViewController.m */,
 			);
 			path = FBNetworkObserverDemo;
+			sourceTree = "<group>";
+		};
+		848AA69325B47B9000D7B64D /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				848AA69425B47BF400D7B64D /* FBLoginNetManager.h */,
+				848AA69525B47BF400D7B64D /* FBLoginNetManager.m */,
+				848AA69725B47C0400D7B64D /* FBPayNetManager.h */,
+				848AA69825B47C0400D7B64D /* FBPayNetManager.m */,
+				848AA69A25B47C1700D7B64D /* NewsInfoNetManager.h */,
+				848AA69B25B47C1700D7B64D /* NewsInfoNetManager.m */,
+			);
+			path = NetManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848AA69625B47BF400D7B64D /* FBLoginNetManager.m in Sources */,
 				84150B7925B32C870049742D /* ViewController.m in Sources */,
+				848AA69C25B47C1700D7B64D /* NewsInfoNetManager.m in Sources */,
+				848AA69925B47C0400D7B64D /* FBPayNetManager.m in Sources */,
 				84150B8F25B33CB90049742D /* FBBaseNetObserver.m in Sources */,
+				848AA68C25B47B5400D7B64D /* LoginViewController.m in Sources */,
+				848AA69225B47B7300D7B64D /* NewsInfoViewController.m in Sources */,
 				84150B7325B32C870049742D /* AppDelegate.m in Sources */,
 				84150B8425B32C8B0049742D /* main.m in Sources */,
+				848AA68F25B47B6600D7B64D /* PayInfoViewController.m in Sources */,
 				84150B7625B32C870049742D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
